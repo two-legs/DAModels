@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DAModels.Clustering.Algorithms.EM.EMClustering" BaseTypeListCollapsed="true">
+    <Position X="8.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAJCCAAACCAAAAAAIUAAAABQQAAAGISAAAAAQA=</HashCode>
+      <FileName>Clustering\Algorithms\EM\EMClustering.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="DAModels.Clustering.Algorithms.EM.EMParams">
+    <Position X="0.5" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Clustering\Algorithms\EM\EMParams.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DAModels.Clustering.Algorithms.EM.EMResult">
+    <Position X="3" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEIAAAACAAAAAAAAAAAAAAAQAAAAhAAAEIAQAAEAAA=</HashCode>
+      <FileName>Clustering\Algorithms\EM\EMResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DAModels.Clustering.Algorithms.KMeansClustering" BaseTypeListCollapsed="true">
+    <Position X="11.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAgAAAgAAAAAAAAAAAAAAAAREAAKACAUAAAAA=</HashCode>
+      <FileName>Clustering\Algorithms\KMeans\KMeansClustering.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="DAModels.Clustering.Algorithms.KMeansResult">
+    <Position X="0.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAAAAAgAAAAAAAAAAQAAEAAA=</HashCode>
+      <FileName>Clustering\Algorithms\KMeans\KMeansResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DAModels.Clustering.Algorithms.KMeans.KMeansParams">
+    <Position X="3" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABACAAAAAAAAAAA=</HashCode>
+      <FileName>Clustering\Algorithms\KMeans\KMeansParams.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DAModels.ClusteringModel&lt;T&gt;">
+    <Position X="6.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAgIAAAAAAAQAAAAAAAAQAAAAAAAACAAAACAAAAAI=</HashCode>
+      <FileName>Clustering\ClusteringModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DAModels.IntelligentModel&lt;T&gt;">
+    <Position X="6.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgIAAAAAAAQAAAAAAAAAAAAAAABAAAAAACAAAAAI=</HashCode>
+      <FileName>IntelligentModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DAModels.ModelParameters&lt;T&gt;">
+    <Position X="8.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>ModelParameters.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DAModels.ModelResult">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>ModelResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DAModels.ModelTestResult">
+    <Position X="10" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>ModelTestResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DAModels.Clustering.ClusteringParams">
+    <Position X="1.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgQAAAAAA=</HashCode>
+      <FileName>Clustering\ClusteringParams.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DAModels.Clustering.ClusteringResult">
+    <Position X="1.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Clustering\ClusteringResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DAModels.Metrics.EuclideanMetric" BaseTypeListCollapsed="true">
+    <Position X="10" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Metrics\EuclideanMetric.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="DAModels.Statistics.Distribution">
+    <Position X="13.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>Statistics\Distribution.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DAModels.Statistics.NormalDistribution">
+    <Position X="13.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAoAAAAAAIAA=</HashCode>
+      <FileName>Statistics\NormalDistribution.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="DAModels.Clustering.Algorithms.IClusteringAlgorithm&lt;T&gt;">
+    <Position X="8.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Clustering\Algorithms\IClusteringAlgorithm.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DAModels.IModelComputable&lt;T&gt;">
+    <Position X="10" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IModelComputable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DAModels.Metrics.ICentroidMetric&lt;T&gt;">
+    <Position X="5.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Metrics\ICentroidMetric.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DAModels.Metrics.IMetric&lt;T&gt;">
+    <Position X="5.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Metrics\IMetric.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
